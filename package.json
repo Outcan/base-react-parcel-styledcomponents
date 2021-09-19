@@ -1,0 +1,29 @@
+{
+  "name": "react-parcel-starter",
+  "version": "1.0.0",
+  "description": "Base template for React Development using Styled-Components and bundling with Parcel.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel scr/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "keywords": ["React", "Parcel", "Styled-Components", "eslint"],
+  "author": "Chris Kew <chris.kew@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.2",
+    "prettier": "^2.4.1"
+  }
+}
